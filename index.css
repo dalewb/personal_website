@@ -31,5 +31,9 @@ body {
 }
 
 .main-header {
-
+    background-color: #5b6e91;
+    width: 100%;
+    padding: 8px 16;
+    margin: 0;
+    display: inline-block;
 }
