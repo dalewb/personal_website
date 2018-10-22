@@ -1,8 +1,16 @@
-section {
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#intro {
   background: #5b6e91;
 }
 
-h1 {
+.section-title {
+  color: #5b6e91;
+}
+
+#intro h1 {
   color: #cdcdcd;
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
