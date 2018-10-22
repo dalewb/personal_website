@@ -4,9 +4,12 @@ body {
 }
 
 #intro {
-  background: #5b6e91;
-  width: 100%;
+  background-image: url("https://www.freeimageslive.co.uk/files/images010/engineering.jpg");
+  background-size: cover;
+
   height: 500px;
+  display: flex;
+  align-items: center;
 }
 
 .section-title {
@@ -18,4 +21,8 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   text-align: center;
   padding-top: 400px;
+}
+
+#demo-videos {
+  height: 500px;
 }
