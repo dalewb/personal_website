@@ -32,13 +32,13 @@ body {
 }
 
 .main-header {
-    background-color: #5b6e91;
-    width: 100%;
-    padding: 8px 16;
-    margin: 0;
-    display: inline-block;
-    position: fixed;
-    z-index: 1;
+  background-color: #5b6e91;
+  width: 100%;
+  padding: 8px 16;
+  margin: 0;
+  display: inline-block;
+  position: fixed;
+  z-index: 1;
 }
 
 .main-nav {
@@ -50,4 +50,17 @@ body {
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  text-decoration: none;
+  color: #cdcdcd;
+}
+
+.main-nav__item a:hover, 
+.main-nav__item a:active {
+  background-color: #cdcdcd;
+  color: #5b6e91;
+  border-radius: 5px;
 }
