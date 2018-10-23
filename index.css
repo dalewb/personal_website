@@ -22,7 +22,6 @@ body {
 #intro h1 {
   color: #cdcdcd;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
   padding-top: 450px;
   padding-left: 10px;
 }
@@ -58,9 +57,9 @@ body {
   color: #cdcdcd;
 }
 
-.main-nav__item a:hover, 
+.main-nav__item a:hover,
 .main-nav__item a:active {
-  background-color: #cdcdcd;
-  color: #5b6e91;
-  border-radius: 5px;
+  color: black;
+  border-bottom: 5px solid black;
+  padding: 3px 0;
 }
