@@ -14,7 +14,7 @@ body {
   text-align: center;
   z-index: 0.5;
   top: 20%;
-  left: 40%;
+  left: 45%;
 }
 
 .personal-picture p {
@@ -48,8 +48,9 @@ body {
 }
 
 #demo-videos {
-  height: 500px;
+  /* height: 500px; */
   text-align: center;
+
 }
 
 .main-header {
@@ -92,6 +93,26 @@ body {
 #experience {
   background-color: #cdcdcd;
   text-align: center;
+}
+
+.experience-info {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 16px;
+  background-color: white;
+}
+
+.experience-info__item {
+  list-style-type: none;
+  text-align: left;
+}
+
+.experience-info__image {
+  height: 300px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 .demo-video {
