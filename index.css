@@ -81,13 +81,17 @@ body {
 
 .main-nav__item a:hover,
 .main-nav__item a:active {
-  color: black;
-  border-bottom: 5px solid black;
-  padding: 3px 0;
+  color: #5b6e91;
+  background-color: #cdcdcd;
+  border-radius: 6px;
+  /* border-bottom: 5px solid black; */
+  padding: 3px;
+  transition: 0.2s;
 }
 
 #experience {
   background-color: #cdcdcd;
+  text-align: center;
 }
 
 .demo-video {
