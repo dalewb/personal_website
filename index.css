@@ -95,6 +95,7 @@ body {
   transition: 0.3s;
   border-radius: 5px;
   display: inline-block;
+  margin: 16px;
 }
 
 .demo-video:hover {
