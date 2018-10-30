@@ -20,7 +20,9 @@ body {
 .personal-picture p {
   font-size: 30px;
   font-weight: bold;
-  color: black;
+  color: #cdcdcd;
+  background-color: #5b6e91;
+  border-radius: 30px;
 }
 
 #intro img {
