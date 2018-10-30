@@ -32,6 +32,7 @@ body {
 
 #intro {
   background-image: url("https://www.freeimageslive.co.uk/files/images010/engineering.jpg");
+  /* background-image: url("https://www.freeimageslive.co.uk/files/images010/computer_tools.jpg"); */
   background-size: cover;
   width: 100%;
   /* vertical-align: center; */
