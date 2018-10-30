@@ -8,18 +8,22 @@ body {
 }
 
 .personal-picture {
-  display: block;
-  text-align: center;
-  top: 20%;
-  left: 45%;
-}
-
-#intro img {
   position: absolute;
   display: inline-block;
   vertical-align: middle;
   text-align: center;
   z-index: 0.5;
+  top: 20%;
+  left: 45%;
+}
+
+.personal-picture p {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+#intro img {
   border-radius: 100px;
   height: 200px;
   width: 200px;
@@ -39,13 +43,6 @@ body {
   color: #5b6e91;
   margin: 0;
   padding-top: 16px;
-}
-
-#intro h1 {
-  color: #cdcdcd;
-  font-family: 'Roboto Condensed', sans-serif;
-  padding-left: 10px;
-  padding-top: 650px;
 }
 
 #demo-videos {
